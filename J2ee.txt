@@ -1,0 +1,86 @@
+
+Server
+
+Manager
+pic.html      WebContent\page\system\view   ctrl+shift+r
+picControl.js WebContent\page\system\Controller
+
+
+		     // response.setContentType("text/html;charset=UTF-8");
+		      
+		      response.setContentType("text/html");
+		      response.setCharacterEncoding("UTF-8");
+
+
+http://www.cnblogs.com/goody9807/archive/2007/06/13/782519.html
+
+
+index.html 	<script src="page/system/controller/picController.js"></script>
+
+
+cd D:\Adboard\J2ee
+jar -cvf my.war *.*
+
+
+
+
+
+ 
+
+        TestBean bean=new TestBean();  
+        bean.setName("name1");  
+        bean.setAge(25);  
+        client.add("bean1", bean);  
+          
+        TestBean beanClient=(TestBean)client.get("bean1");  
+        System.out.println(beanClient.getName());  
+
+
+
+import java.io.Serializable;   
+  
+public class TestBean implements Serializable {   
+
+}
+
+
+
+ 
+cd C:\Program Files\MongoDB\Server\3.2\bin
+mongod.exe --dbpath c:\data\db
+
+mongod.exe --bind_ip 127.0.0.1 --logpath "C:\data\dbConf\mongodb.log" --logappend --dbpath "C:\data\db" --port 27017 --serviceName "MongoDBService" --serviceDisplayName "MongoDBService" --install
+
+mongo
+
+db.table.find()
+db.table.insert({name:"davis"})
+db.table.insert({name:"Jay"})
+db.table.update({'name':'Jay'},{$set:{'name':'jay'}})
+db.table.find()
+
+db
+ 
+mongodump -h "127.0.0.1:27017" -d "test" -o   "C:\data\dump"
+
+mongorestore -h "127.0.0.1:27017" -d "test"  --drop  "C:\data\dump\test"
+
+C:\>cd go_workspace
+C:\Go_WorkSpace>go run test.go
+
+
+
+C:\Redis>redis-server.exe redis.windows.conf
+[14208] 12 Sep 12:47:06.055 # Creating Server TCP listening socket 127.0.0.1:6379: bind: No error
+
+C:\Windows\system32>redis-cli.exe -h 127.0.0.1 -p 6379
+127.0.0.1:6379> set myKey abc
+OK
+127.0.0.1:6379> get myKey
+"abc"
+127.0.0.1:6379>
+
+
+
+
+
