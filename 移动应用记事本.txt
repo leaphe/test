@@ -1,0 +1,54 @@
+行程天下 
+183.131.145.170
+数据库  root infopower_j-limo
+
+大屏 192.168.2.79 
+远程 administrator Dp@infopower
+
+66外网服务器 120.132.93.66 
+远程   administrator Ana@lytic168
+数据库 sa infopower168
+D:\MobilePhone\TPM_TOMCAT\apache-tomcat-7.0.68\bin
+
+220内网服务器 192.168.2.220 
+远程Administrator dci_infopower
+数据库 sa Ana@lytic168
+
+极光推送
+https://www.jiguang.cn/push
+zdxhz01  angel.27
+
+苹果企业账号： nick.zhang@analyticservice.net 密码：infoPower!168
+
+
+
+mobile@analyticservice.net
+tx2015
+
+https://modao.cc/ 
+mobile@analyticservice.net
+123456
+
+aaswechat@analyticservice.net
+Ana@lytic
+
+
+移动APP视频 
+链接: http://pan.baidu.com/s/1eS7DJ82 密码: 3k9s
+ 
+会议预订系统 APP
+IOS版本        ： www.pgyer.com/gUFO 安装密码：111111
+Android版本： ww.pgyer.com/Ch1R  安装密码：111111
+登录 用 davis 密码123456    
+
+
+施耐德PMS APP
+IOS版本        ：www.pgyer.com/lxIR 安装密码：111111
+Android版本：www.pgyer.com/iomM 安装密码：111111
+登录 用 davis 密码123456   验证码输入888888    
+
+
+行程天下 APP
+IOS版本        ：www.pgyer.com/xctx5 安装密码：shxctx
+Android版本： www.pgyer.com/xctx4 安装密码：无
+登录 用 davis     密码123456   
