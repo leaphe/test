@@ -1,11 +1,23 @@
+﻿Server选项卡右键 add and remove...
+右边清空，加上要运行的j2ee程序
 
 Server
+在src目录 com.adboard.server增加包名bigdata
+在bigdata包下创建表的实体类sysAppBanner.java
+在bigdata包下创建Hibernate映射关系sysAppBanner.hbm.xml
+在src目录 com.adboard.server包名Service bigdata包下创建 BannerService.java
+在src目录 com.adboard.server包名Service bigdata.impl包下创建BannnerImpl.java ctrl+t
+iBaseDao处理通用功能
+bannerDao处理例外功能
 
 Manager
 pic.html      WebContent\page\system\view   ctrl+shift+r
 picControl.js WebContent\page\system\Controller
 
+Servlet 不起效
+Project Clearn...就生效
 
+		      // 设置响应内容类型
 		     // response.setContentType("text/html;charset=UTF-8");
 		      
 		      response.setContentType("text/html");
@@ -21,21 +33,30 @@ index.html 	<script src="page/system/controller/picController.js"></script>
 cd D:\Adboard\J2ee
 jar -cvf my.war *.*
 
+在项目正式上线的时候，tomcat运行的项目最好是打包好后的war文件，而不是源程序，切记！
+
+@WebServlet("/PageHitCounter") Serlet3.0不加会出错
+在servlet3.0以后，我们可以不用再web.xml里面配置servlet，只需要加上@WebServlet注解就可以修改该servlet的属性了。
+
+Memcached是一个自由开源的，高性能，分布式内存对象缓存系统。
 
 
-
-
+本质上，它是一个简洁的基于内存的key-value存储系统。
+一般的使用目的是，通过缓存数据库查询结果，减少数据库访问次数，以提高动态Web应用的速度、提高可扩展性
  
 
+//      将数据放入缓存  
         TestBean bean=new TestBean();  
         bean.setName("name1");  
         bean.setAge(25);  
         client.add("bean1", bean);  
           
+//      获取缓存数据  
         TestBean beanClient=(TestBean)client.get("bean1");  
         System.out.println(beanClient.getName());  
 
 
+        一个类，如果要使其对象可以被串行化，必须实现Serializable接口。我们定义一个类Student如下：
 
 import java.io.Serializable;   
   
@@ -44,6 +65,7 @@ public class TestBean implements Serializable {
 }
 
 
+NoSQL(NoSQL = Not Only SQL )，意即"不仅仅是SQL"
 
  
 cd C:\Program Files\MongoDB\Server\3.2\bin
